@@ -12,6 +12,9 @@
 		4192FCE321F7811E009B8772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4192FCE121F7811E009B8772 /* Main.storyboard */; };
 		4192FCE521F78120009B8772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4192FCE421F78120009B8772 /* Assets.xcassets */; };
 		4192FCE821F78120009B8772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4192FCE621F78120009B8772 /* LaunchScreen.storyboard */; };
+		4192FCF021F7818C009B8772 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4192FCEF21F7818C009B8772 /* ListTableViewController.swift */; };
+		4192FCF221F784A3009B8772 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4192FCF121F784A3009B8772 /* Item.swift */; };
+		41D8A91E21F8A14900B711D7 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D8A91D21F8A14900B711D7 /* ItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4192FCE421F78120009B8772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4192FCE721F78120009B8772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4192FCE921F78120009B8772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4192FCEF21F7818C009B8772 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		4192FCF121F784A3009B8772 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		41D8A91D21F8A14900B711D7 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				4192FCDD21F7811E009B8772 /* AppDelegate.swift */,
 				4192FCDF21F7811E009B8772 /* ViewController.swift */,
 				4192FCE121F7811E009B8772 /* Main.storyboard */,
+				4192FCEF21F7818C009B8772 /* ListTableViewController.swift */,
+				41D8A91D21F8A14900B711D7 /* ItemViewController.swift */,
+				4192FCF121F784A3009B8772 /* Item.swift */,
 				4192FCE421F78120009B8772 /* Assets.xcassets */,
 				4192FCE621F78120009B8772 /* LaunchScreen.storyboard */,
 				4192FCE921F78120009B8772 /* Info.plist */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4192FCF221F784A3009B8772 /* Item.swift in Sources */,
+				4192FCF021F7818C009B8772 /* ListTableViewController.swift in Sources */,
+				41D8A91E21F8A14900B711D7 /* ItemViewController.swift in Sources */,
 				4192FCE021F7811E009B8772 /* ViewController.swift in Sources */,
 				4192FCDE21F7811E009B8772 /* AppDelegate.swift in Sources */,
 			);
@@ -281,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SS46K296C;
+				DEVELOPMENT_TEAM = 7J2H46PQDL;
 				INFOPLIST_FILE = "The SpineApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ELSYS.SmartKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6SS46K296C;
+				DEVELOPMENT_TEAM = 7J2H46PQDL;
 				INFOPLIST_FILE = "The SpineApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.THESPINEAPPLE.The-SpineApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ELSYS.SmartKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var textField: UITextField!
+    
+    @IBAction func addItem(_ sender: Any) {
+        if(textField.text != nil){
+            items.append(Item(name: textField.text!, price: items[items.endIndex - 1].price + 1 ))
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
